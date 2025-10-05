@@ -1,0 +1,38 @@
+#main-navbar {
+  background-color:#FFCC00;
+  overflow:hidden
+}
+
+#navbar-container {
+  float:left;
+  width:100%;
+  position:relative;
+}
+
+#main-navbar ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:50%;
+  float:left;
+}
+
+#main-navbar ul li {
+  float:left;
+  position:relative;
+  right:50%;
+  display:block;
+}
+
+#main-navbar ul li a {
+  display:block;
+  text-decoration:none;
+  padding:20px 40px;
+  color:000000;
+}
+
+#main-navbar ul li a:hover {
+  text-decoration:none;
+  color:#CCCC99;
+}
