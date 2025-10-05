@@ -3,6 +3,13 @@ body {
   color:#FFCC00;
 }
 
+div.container { 
+  float:left;
+  width:100%;
+  position:relative;
+  text-align:center;
+}  
+
 #main-navbar {
   background-color:#FFCC00;
   overflow:hidden;
@@ -40,5 +47,11 @@ body {
 #main-navbar ul li a:hover {
   background-color:white;
   text-decoration:none;
+  color:#FFCC00;
+}
+
+#onpage {
+  background-color:white;
+  text-decoration:underline overline;
   color:#FFCC00;
 }
