@@ -1,6 +1,9 @@
+body {
+  background-color:#CCCC99;
+
 #main-navbar {
   background-color:#FFCC00;
-  overflow:hidden
+  overflow:hidden;
 }
 
 #navbar-container {
@@ -28,11 +31,12 @@
 #main-navbar ul li a {
   display:block;
   text-decoration:none;
-  padding:20px 40px;
-  color:000000;
+  padding:20px 60px;
+  color:#000000;
 }
 
 #main-navbar ul li a:hover {
+  background-color:white;
   text-decoration:none;
-  color:#CCCC99;
+  color:#FFCC00;
 }
