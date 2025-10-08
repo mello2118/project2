@@ -61,6 +61,7 @@ body {
   position:relative;
   float:left;
   width:100%;
+  text-align:center;
 }
 
 #list ul {
