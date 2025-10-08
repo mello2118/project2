@@ -91,7 +91,11 @@ video {
 
 .animation {
   position:relative;
-  animation-name: myAnimation;
+  animation-name: myanimation;
   animation-duration: 3s;
-  animation-fill-mode:forwards;
+  }
+  
+  @keyframes myanimation {
+    from{opacity:0;}
+    to{opacity:1;}
   }
