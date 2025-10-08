@@ -1,7 +1,7 @@
 body {
   background-color:#000000;
   color:#FFCC00;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", Arial, sans-serif;
 }
 
 .container { 
@@ -87,3 +87,11 @@ video {
   width:50%;
   margin:auto;
   border:3px solid #FFCC00;
+}
+
+.animation {
+  position:relative;
+  animation-name: myAnimation;
+  animation-duration: 3s;
+  animation-fill-mode:forwards;
+  }
